@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:paddingEnd="16dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="8dp"
+    android:paddingRight="16dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userCircleImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:src="@color/search_gray"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/background_right"
+            android:padding="12dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Hello"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/photoButton"
+            android:visibility="invisible"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/galleryButton"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</RelativeLayout>

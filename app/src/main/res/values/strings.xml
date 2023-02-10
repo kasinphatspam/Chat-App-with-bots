@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Azne</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="notnull">Please fill out the information.</string>
+    <string name="auth_signin_not_complete">Password wrong</string>
+
+    <string name="msg_choice">Do you want to take a photo or open the gallery</string>
+    <string name="msg_choice_success">Loading</string>
+    <string name="msg_choice_fail">Cancel</string>
+    <string name="msg_about">About the app</string>
+    <string name="msg_how_to_use">How to use</string>
+    <string name="msg_graph">Open graph</string>
+    <string name="msg_graph_show">Opening graph</string>
+    <string name="msg_history">Open history</string>
+    <string name="msg_history_show">Opening history</string>
+    <string name="msg_acne">What is acne</string>
+    <string name="msg_open_camera">Opening camera</string>
+    <string name="msg_open_gallery">Opening gallery</string>
+    <string name="msg_check">I want to check my face</string>
+
+    <string name="error">ERROR</string>
+</resources>
